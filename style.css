@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  color: hsla(228, 12%, 48%, 0.748);
+  margin: 0;
+  padding: 0;
+}
+
+#main-page {
+  width: 1440px;
+  height: 800px;
+  padding-top: 200px;
+  background: hsl(30, 38%, 92%);
+}
+
+#product-card {
+  background: hsl(0, 0%, 100%);
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex: 1 1;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+#product-text {
+  width: 100%;
+  padding: 20px;
+}
+
+#product-category {
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+#product-text h2 {
+  font-family: Fraunces, serif;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+#product-price {
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces, serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#original-price {
+  text-decoration: line-through;
+}
